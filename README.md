@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Collaborative Group Project – Oscillator Data Builder
 ===
 
@@ -30,3 +31,7 @@ Set up project skeleton, define classes and namespaces.
 - vender/
 - composer.json
 - README.md
+=======
+Oscillator_Data_Builder
+=======================
+>>>>>>> e3aa98dca5f4aab62d14b8244a943f1d352b4c29
