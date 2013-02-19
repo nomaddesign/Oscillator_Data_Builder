@@ -1,0 +1,16 @@
+<phpunit bootstrap="../Bootstrap.php"
+		 colors="true"
+		 verbose="true"
+	>
+	<testsuites>
+		<testsuite name="Oscillator Data Builder - Test Suite">
+			<directory>../Src</directory>
+		</testsuite>
+	</testsuites>
+	
+	<filter>
+		<blacklist>
+			<directory>../../Vendors</directory>
+		</blacklist>
+	</filter>
+</phpunit>

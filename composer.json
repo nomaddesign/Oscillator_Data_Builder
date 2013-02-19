@@ -1,0 +1,31 @@
+{
+	"name": "Oscillator Data Builder",
+	"description": "UW 422 PHP Course Project",
+	"authors": [
+		{
+			"name": "Jason Ball",
+			"email": "jason@eyemoto.com"
+			"role": "Developer"
+		},
+		{
+			"name": "Mike Kriesl",
+			"email": "michaelkrisel@gmail.com"
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"phpunit/phpunit": "3.7.*@dev"
+	},
+
+	"autoload": {
+		"classmap": [
+			"Src/DB/",
+			"Src/Grabber/",
+			"Src/View/"
+		]
+	},
+	"config": {
+		"vendor-dir" : "Vendors",
+		"vendor-bin" : "Vendors/bin"
+	}
+}
