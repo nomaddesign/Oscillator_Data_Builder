@@ -4,17 +4,19 @@
 	"authors": [
 		{
 			"name": "Jason Ball",
-			"email": "jason@eyemoto.com"
+			"email": "jason@eyemoto.com",
 			"role": "Developer"
 		},
 		{
 			"name": "Mike Kriesl",
-			"email": "michaelkrisel@gmail.com"
+			"email": "michaelkrisel@gmail.com",
 			"role": "Developer"
 		}
 	],
 	"require": {
-		"phpunit/phpunit": "3.7.*@dev"
+		"phpunit/phpunit": "3.7.*@dev",
+		"phpunit/dbunit": "1.2.2",
+		"sunra/php-simple-html-dom-parser": "dev-master"
 	},
 
 	"autoload": {
