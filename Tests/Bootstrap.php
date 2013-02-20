@@ -11,5 +11,5 @@ ini_set('display_errors','On');
 ini_set('display_startup_errors','On');
 
 // Autoload project level bootstrap file
-require_once __DIR__.'/../bootstrap.php';
+require_once __DIR__.'/../Bootstrap.php';
 ?>

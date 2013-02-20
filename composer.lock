@@ -1,5 +1,5 @@
 {
-    "hash": "b02f7122f358abfe0f54048c2db9cb5f",
+    "hash": "c1bb71d0a2f21f67e529c79e9fe9c65c",
     "packages": [
         {
             "name": "phpunit/dbunit",
@@ -506,7 +506,7 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "phpunit/phpunit": 20,
+        "phpunit/phpunit": 0,
         "sunra/php-simple-html-dom-parser": 20
     }
 }
