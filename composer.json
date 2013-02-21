@@ -16,6 +16,7 @@
 	"require": {
 		"phpunit/phpunit": "3.7.*@stable",
 		"phpunit/dbunit": "1.2.2",
+		"guzzle/guzzle": "v3.2.0",
 		"sunra/php-simple-html-dom-parser": "dev-master"
 	},
 
