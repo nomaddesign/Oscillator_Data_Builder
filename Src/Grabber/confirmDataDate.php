@@ -3,18 +3,24 @@
 
 use Sunra\PhpSimple;
 
-class confirmDataDate {
+// class confirmDataDate {
 
-	protected function extractDate($page, $element, $format){
-	
+	// function extractDate($page, $element, $format){
+
+$page = '../../DataFilesTmp/2013-02-19_WSJ-snapshot.html';
+
 		$html = str_get_html($page); 
 		
-		$dateString = $html->
-	}
+		$dateString = $html->getElementById
+		
+	//} //end Function extractDate
 
 
 
-}
- 
+// } //END Class confirmDataDate
+
+
+
+
 
 ?>
