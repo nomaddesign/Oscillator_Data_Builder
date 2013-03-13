@@ -1,25 +1,29 @@
 <?php
 
+namespace Grabber;
 
-use Sunra\PhpSimple;
+use \Sunra\PhpSimple;
 
-// class confirmDataDate {
+/*
+* Will ensure Data Fetched is the correct day's Data
+* @ToDo date comparason function
+*  *For Future Implemation* 
+*/
 
-	// function extractDate($page, $element, $format){
+class confirmDataDate (){
 
-$page = '../../DataFilesTmp/2013-02-19_WSJ-snapshot.html';
+	function extractDate($page, $element, $format){
 
-		$html = str_get_html($page); 
-		
+		$html = str_get_html($file); 
 		$dateString = $html->getElementById
 		
-	//} //end Function extractDate
+	} //end Function extractDate
+	
+	
+	function compareDate(){;}
 
 
-
-// } //END Class confirmDataDate
-
-
+} //END Class confirmDataDate
 
 
 
