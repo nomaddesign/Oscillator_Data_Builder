@@ -13,6 +13,10 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/demo_page.css">
+        <link rel="stylesheet" href="css/demo_table_jui.css">
+        <link rel="stylesheet" href="css/demo_table.css">
+        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
        	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
@@ -34,7 +38,7 @@
 
 
 
-      <div id="content">
+      <div id="content" style="margin: 8px">
         <table style="font-size: 0.6em" id="osc_table" cellpadding="0" cellspacing="0" border="0" class="display" >
 	<thead>
 		<tr>
